@@ -1,0 +1,189 @@
+// SCSS variables are information about icon's compiled state, stored under its original file name
+//
+// .icon-home {
+//   width: $icon-home-width;
+// }
+//
+// The large array-like variables contain all information about a single icon
+// $icon-home: x y offset_x offset_y width height total_width total_height image_path;
+//
+// At the bottom of this section, we provide information about the spritesheet itself
+// $spritesheet: width height image $spritesheet-sprites;
+$app-store-name: 'app-store';
+$app-store-x: 768px;
+$app-store-y: 468px;
+$app-store-offset-x: -768px;
+$app-store-offset-y: -468px;
+$app-store-width: 32px;
+$app-store-height: 38px;
+$app-store-total-width: 871px;
+$app-store-total-height: 728px;
+$app-store-image: '../images/sprite.png';
+$app-store: (768px, 468px, -768px, -468px, 32px, 38px, 871px, 728px, '../images/sprite.png', 'app-store', );
+$confetti-name: 'confetti';
+$confetti-x: 0px;
+$confetti-y: 338px;
+$confetti-offset-x: 0px;
+$confetti-offset-y: -338px;
+$confetti-width: 375px;
+$confetti-height: 206px;
+$confetti-total-width: 871px;
+$confetti-total-height: 728px;
+$confetti-image: '../images/sprite.png';
+$confetti: (0px, 338px, 0px, -338px, 375px, 206px, 871px, 728px, '../images/sprite.png', 'confetti', );
+$desk-name: 'desk';
+$desk-x: 375px;
+$desk-y: 338px;
+$desk-offset-x: -375px;
+$desk-offset-y: -338px;
+$desk-width: 246px;
+$desk-height: 138px;
+$desk-total-width: 871px;
+$desk-total-height: 728px;
+$desk-image: '../images/sprite.png';
+$desk: (375px, 338px, -375px, -338px, 246px, 138px, 871px, 728px, '../images/sprite.png', 'desk', );
+$gift-name: 'gift';
+$gift-x: 0px;
+$gift-y: 544px;
+$gift-offset-x: 0px;
+$gift-offset-y: -544px;
+$gift-width: 136px;
+$gift-height: 184px;
+$gift-total-width: 871px;
+$gift-total-height: 728px;
+$gift-image: '../images/sprite.png';
+$gift: (0px, 544px, 0px, -544px, 136px, 184px, 871px, 728px, '../images/sprite.png', 'gift', );
+$google-play-name: 'google-play';
+$google-play-x: 733px;
+$google-play-y: 468px;
+$google-play-offset-x: -733px;
+$google-play-offset-y: -468px;
+$google-play-width: 35px;
+$google-play-height: 38px;
+$google-play-total-width: 871px;
+$google-play-total-height: 728px;
+$google-play-image: '../images/sprite.png';
+$google-play: (733px, 468px, -733px, -468px, 35px, 38px, 871px, 728px, '../images/sprite.png', 'google-play', );
+$jestiniyap-logo-name: 'jestiniyap-logo';
+$jestiniyap-logo-x: 375px;
+$jestiniyap-logo-y: 223px;
+$jestiniyap-logo-offset-x: -375px;
+$jestiniyap-logo-offset-y: -223px;
+$jestiniyap-logo-width: 280px;
+$jestiniyap-logo-height: 29px;
+$jestiniyap-logo-total-width: 871px;
+$jestiniyap-logo-total-height: 728px;
+$jestiniyap-logo-image: '../images/sprite.png';
+$jestiniyap-logo: (375px, 223px, -375px, -223px, 280px, 29px, 871px, 728px, '../images/sprite.png', 'jestiniyap-logo', );
+$party-people-name: 'party-people';
+$party-people-x: 375px;
+$party-people-y: 0px;
+$party-people-offset-x: -375px;
+$party-people-offset-y: 0px;
+$party-people-width: 358px;
+$party-people-height: 223px;
+$party-people-total-width: 871px;
+$party-people-total-height: 728px;
+$party-people-image: '../images/sprite.png';
+$party-people: (375px, 0px, -375px, 0px, 358px, 223px, 871px, 728px, '../images/sprite.png', 'party-people', );
+$stairs-name: 'stairs';
+$stairs-x: 0px;
+$stairs-y: 0px;
+$stairs-offset-x: 0px;
+$stairs-offset-y: 0px;
+$stairs-width: 375px;
+$stairs-height: 338px;
+$stairs-total-width: 871px;
+$stairs-total-height: 728px;
+$stairs-image: '../images/sprite.png';
+$stairs: (0px, 0px, 0px, 0px, 375px, 338px, 871px, 728px, '../images/sprite.png', 'stairs', );
+$window-mirrored-name: 'window-mirrored';
+$window-mirrored-x: 733px;
+$window-mirrored-y: 0px;
+$window-mirrored-offset-x: -733px;
+$window-mirrored-offset-y: 0px;
+$window-mirrored-width: 138px;
+$window-mirrored-height: 234px;
+$window-mirrored-total-width: 871px;
+$window-mirrored-total-height: 728px;
+$window-mirrored-image: '../images/sprite.png';
+$window-mirrored: (733px, 0px, -733px, 0px, 138px, 234px, 871px, 728px, '../images/sprite.png', 'window-mirrored', );
+$window-name: 'window';
+$window-x: 733px;
+$window-y: 234px;
+$window-offset-x: -733px;
+$window-offset-y: -234px;
+$window-width: 138px;
+$window-height: 234px;
+$window-total-width: 871px;
+$window-total-height: 728px;
+$window-image: '../images/sprite.png';
+$window: (733px, 234px, -733px, -234px, 138px, 234px, 871px, 728px, '../images/sprite.png', 'window', );
+$spritesheet-width: 871px;
+$spritesheet-height: 728px;
+$spritesheet-image: '../images/sprite.png';
+$spritesheet-sprites: ($app-store, $confetti, $desk, $gift, $google-play, $jestiniyap-logo, $party-people, $stairs, $window-mirrored, $window, );
+$spritesheet: (871px, 728px, '../images/sprite.png', $spritesheet-sprites, );
+
+// The provided mixins are intended to be used with the array-like variables
+//
+// .icon-home {
+//   @include sprite-width($icon-home);
+// }
+//
+// .icon-email {
+//   @include sprite($icon-email);
+// }
+//
+// Example usage in HTML:
+//
+// `display: block` sprite:
+// <div class="icon-home"></div>
+//
+// To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+//
+// // CSS
+// .icon {
+//   display: inline-block;
+// }
+//
+// // HTML
+// <i class="icon icon-home"></i>
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+// The `sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SCSS
+//
+// @include sprites($spritesheet-sprites);
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}
